@@ -95,9 +95,9 @@ export default function App() {
     // //---------------------------------------------
     // var headers = {};
    
-    // var ws = new WebSocket('ws://127.0.0.1:8000/')
-    var ws = new WebSocket('ws://140.118.121.195:8000/')
-    // var ws = new WebSocket('wss://114.32.26.146:5050/')
+    
+    var ws = new WebSocket('ws://')
+
 
     AudioRecord.init(options);
     AudioRecord.start();
